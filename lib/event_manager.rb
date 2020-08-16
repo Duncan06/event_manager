@@ -81,14 +81,6 @@ def clean_number(phone_number)
 
 end
 
-def get_hours(day)
-
-    day.hour
-
-end
-
-
-
 puts "EventManager Initialized!"
 
 template_letter = File.read "form_letter.erb"
